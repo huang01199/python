@@ -13,5 +13,5 @@ elif (座號<=26)and(座號>=30):
     print("組別為6")
 elif (座號<=31)and(座號>=35):
     print("組別為7")
-else :
+elif (座號<=36)and(座號>=40):
     print("組別為8")
