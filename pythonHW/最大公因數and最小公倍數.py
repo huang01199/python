@@ -5,15 +5,15 @@ def 公因數(a,b):
             c = i
     return c  
 def 公倍數(a,b):
-    i=1
+    c=max(a,b)
     while(True):
-        if a*i==b*i:
-            return a*i
-            
+        if ((c%a==0) and (c%b==0)):
+            return c
+        c=c+1
 a=int(input("輸入a:"))
 b=int(input("輸入b:"))
-print("最大公因數:",公因數(a,b),"最小公倍數",公倍數(a,b))
-
+print("最大公因數:",公因數(a,b))
+print("最小公倍數:",公倍數(a,b))
 
 
 
