@@ -1,4 +1,4 @@
-a=(input("輸入任意長度串列，用逗號區隔:").split(","))
+a=(input("輸入任意長度串列:").split())
 num=[int(i) for i in a]
 b=int(input("請輸入目標數"))
 print("nums =",num,",","target =",b)
