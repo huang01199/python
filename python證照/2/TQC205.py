@@ -1,0 +1,31 @@
+#請撰寫一程式，讓使用者輸入骰子點數，一顆骰子有1~6個點數，擲 10 次骰子，輸出擲骰點數出現的次數，以及不屬於骰子點數的錯誤次數。
+a=0
+a1=0
+a2=0
+a3=0
+a4=0
+a5=0
+a6=0
+for i in range(10):
+    b=eval(input())
+    if(b==1):
+        a1=a1+1
+    elif(b==2):
+        a2=a2+1
+    elif(b==3):
+        a3=a3+1
+    elif(b==4):
+        a4=a4+1
+    elif(b==5):
+        a5=a5+1
+    elif(b==6):
+        a6=a6+1
+    else:
+        a=a+1
+print(f"number1:{a1}")
+print(f"number2:{a2}")
+print(f"number3:{a3}")
+print(f"number4:{a4}")
+print(f"number5:{a5}")
+print(f"number6:{a6}")
+print(f"error:{a}")
