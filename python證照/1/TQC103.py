@@ -2,8 +2,4 @@
 a=eval(input())
 b=eval(input())
 c=eval(input())
-d=a+b+c
-e="{:.2f}"
-print(a,b,c,sep="+",end="=")
-print(d)
-print(e.format(d/3))
+print(f"{a}+{b}+{c}={a+b+c}")
