@@ -8,7 +8,7 @@ def compute(a):
         return b
     else:
         for i in range(a-2):
-            b.append(b[c-2]+b[c-3])
+            b.append(b[c-3]+b[c-2])
             c=c+1
         return b
 
