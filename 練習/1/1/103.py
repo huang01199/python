@@ -1,5 +1,0 @@
-a=eval(input())
-b=eval(input())
-c=eval(input())
-print(f"{a}+{b}+{c}={a+b+c}")
-print(f"{(a+b+c)/3:.2f}")
